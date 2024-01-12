@@ -144,4 +144,5 @@ if __name__ == "__main__":
     # data_dict = {"mit": "../data", "frl": "../data", "arni": "Z:/elec/t412-asp"} 
     audio_path = "C:/Users/jacki/Desktop/Thesis/rircomplete/data/Pyroomacoustics/ism_dar/ism_dar_1"
     
+    audio_path = "/scratch/elec/t412-asp/ism_dar_1" 
     main(audio_path)
