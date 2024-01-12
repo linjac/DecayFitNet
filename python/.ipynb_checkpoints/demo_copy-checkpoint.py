@@ -137,7 +137,7 @@ def main(path_to_dataset):
     df1 = pd.DataFrame(mse_freqband_DFN, columns=['MSE_DFN %u Hz' % f for f in filter_frequencies])
     
     df = pd.concat([df, df1], axis=1)
-    df.to_csv('metadata_DecayFitNet.csv', index=False)
+    df.to_csv(os.path.join(path_to_dataset, 'metadata_DecayFitNet.csv'), index=False)
     
 if __name__ == "__main__":
     
